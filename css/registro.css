@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.descuentos {
+  background-color: #1cd1b0;
+  padding-left: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+.cardSuperHeroes {
+  background-color: rgb(0, 102, 159);
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.cardSuperHeroes H1 {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.clasecita {
+  display: flex;
+  height: 5vh;
+}
+
+.loguito {
+  margin-left: 2rem;
+}
+
+nav {
+  background-color: #001d2d;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  display: block;
+  color: #fff;
+  padding: 1rem 1.4rem;
+}
+
+.contenedor{
+    background-color: #00669F;
+    border-radius: 1rem;
+    width: 954px;
+    height: 600px;
+    margin-top: 2rem;   
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor p{
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background-color: rgb(0, 102, 159);
+  margin-top: 6.75rem;
+}
+
+footer p {
+  color: #fff9f9;
+  text-align: center;
+}
+
+.contenedorgrande{
+    display: flex;
+    flex-direction: row;
+}
+
+.diva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.NFTA{
+    width: 40%;
+}
+
+.NFTA input{
+    margin: 20px;
+}
+.NFTA2{
+    width: 40%;
+}
+
+label {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
